@@ -48,7 +48,7 @@ public class About extends AppCompatActivity {
         rvwg_home.clearCache(true);
     }
 
-    public void openHomePage(View view){
+    public void openHomePage(View view) {
         Intent openURL = new Intent(android.content.Intent.ACTION_VIEW);
         openURL.setData(Uri.parse("http://hp.rvwg-web.de"));
         startActivity(openURL);

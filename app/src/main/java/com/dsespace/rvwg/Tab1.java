@@ -54,15 +54,15 @@ public class Tab1 extends Fragment {
 
         /** WIP: Open Links in Chrome Custom Tab
          * WebView.setWebViewClient(new WebViewClient() {
-            public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                if (url != null && url.startsWith("http://")) {
+         public boolean shouldOverrideUrlLoading(WebView view, String url) {
+         if (url != null && url.startsWith("http://")) {
 
-                    return true;
-                } else {
-                    return false;
-                }
-            }
-        }); **/
+         return true;
+         } else {
+         return false;
+         }
+         }
+         }); **/
 
         //make it possible to run JavaScript
         WebSettings webSettings = WebView.getSettings();
