@@ -25,6 +25,8 @@ import android.webkit.WebView;
 import android.webkit.WebViewFragment;
 import android.widget.TextView;
 
+import static com.dsespace.rvwg.R.string.top_name;
+
 public class MainActivity extends AppCompatActivity {
 
     /**
@@ -59,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
-
+        getSupportActionBar().setTitle(top_name);
     }
 
 
