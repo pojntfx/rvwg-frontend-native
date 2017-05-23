@@ -21,8 +21,7 @@
         </activity>
         <activity
             android:name="com.dsespace.rvwg.About"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
