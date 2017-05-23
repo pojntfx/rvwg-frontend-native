@@ -47,10 +47,10 @@ public class Tab2 extends Fragment {
 
         //load WebView
         WebView WebView = (WebView) view.findViewById(R.id.webview_vplan);
-        WebView.loadUrl("http://hp.rvwg-web.de/index.php?id=209");
+        WebView.loadUrl("http://hp.rvwg-web.de/index.php?id=212");
 
         //make opening links inside the webview possible
-        //WebView.setWebViewClient(new WebViewClient());
+        WebView.setWebViewClient(new WebViewClient());
 
         /** WIP: Open Links in Chrome Custom Tab
          * WebView.setWebViewClient(new WebViewClient() {

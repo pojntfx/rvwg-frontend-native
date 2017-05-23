@@ -1,6 +1,10 @@
 <resources>
+    <!-- Name that shows up in the Laucher below the app icon -->
     <string name="app_name">RvWG</string>
+
+    <!-- Name for the menu in the upper right hand corner -->
     <string name="action_settings">Über die Programmierer</string>
-    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- Name that shows up above the tabs -->
     <string name="top_name">RvWG Baiersbronn</string>
 </resources>
