@@ -47,7 +47,7 @@ public class Tab1 extends Fragment {
 
         //load WebView
         WebView WebView = (WebView) view.findViewById(R.id.webview_news);
-        WebView.loadUrl("http://www.hp.rvwg-web.de/webviews/neuigkeiten/");
+        WebView.loadUrl("http://www.rvwg.de/webviews/neuigkeiten/");
 
         //make opening links inside the webview possible
         //WebView.setWebViewClient(new WebViewClient());
